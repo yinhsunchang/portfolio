@@ -1,0 +1,47 @@
+{
+  "pageTitle": "Yin-Hsun Chang – Portfolio",
+  "pageDescription": "Un site portfolio élégant construit avec React et TypeScript.",
+  
+  "nav": {
+    "home": "Accueil",
+    "portfolio": "Portfolio",
+    "about": "À Propos",
+    "contact": "Contact"
+  },
+
+  "header": {
+    "subtitle": "Photographe et développeuse web front-end.",
+    "download": "Télécharger le CV",
+    "resume": "YINHSUN CHANG CV_FR.pdf"
+  },
+
+  "portfolio": "Mon Portfolio",
+
+  "project": {
+    "title1": "- Page d'accueil « Coming Soon » -",
+    "tech1": "React • TypeScript • JavaScript • CSS",
+    "des1": "Une page d'accueil interactive et responsive, avec un compte à rebours en temps réel, une animation de machine à écrire, un formulaire d’abonnement par email et une architecture front-end basée sur des composants. Idéale pour les lancements de produits ou les marques personnelles.",
+    "title2": "- Portfolio de chat modèle -",
+    "tech2": "React • TypeScript • JavaScript • CSS • i18n • React Helmet",
+    "des2": "Un site portfolio élégant présentant des portraits de chats inspirés de mannequins, avec navigation bilingue (anglais/français), défilement fluide, zoom au survol des images, chargement différé des images et mise en page entièrement réactive, offrant des performances optimales et une expérience utilisateur améliorée."
+  },
+
+  "about": {
+    "title": "À propos de moi",
+    "text1": "Développeuse front-end autodidacte, avec un parcours en photographie et en design d’intérieur.",
+    "text2": "Passionnée par la création de sites web, alliant expertise technique et sens du design.",
+    "skills": {
+      "title": "Mes compétences",
+      "frontend": "- HTML / CSS / JavaScript / TypeScript / React",
+      "design": "- Photographie / Retouche photo / Design d'intérieur",
+      "language": "- Chinois / Anglais / Français"
+    }
+  },
+
+  "contact": {
+    "title": "Me Contacter",
+    "address": "Thionville, FRANCE",
+    "phone": "Téléphone : +33 7 62 73 65 29",
+    "email": "E-mail: yinhsunchang@gmail.com"
+  }
+}
