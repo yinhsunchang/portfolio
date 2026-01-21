@@ -23,7 +23,10 @@
     "des1": "An interactive, responsive landing page with a live countdown timer, typewriter animation, email subscription form, and component-based front-end architecture. Ideal for product launches or personal brands.",
     "title2": "- Cat Model Portfolio -",
     "tech2": "React • TypeScript • JavaScript • CSS • i18n • React Helmet",
-    "des2": "A stylish portfolio site showcasing model-inspired cat portraits, featuring bilingual navigation (English/French), smooth scrolling, image hover zoom, lazy loading, and a fully responsive layout for optimal performance and user experience."
+    "des2": "A stylish portfolio site showcasing model-inspired cat portraits, featuring bilingual navigation (English/French), smooth scrolling, image hover zoom, lazy loading, and a fully responsive layout for optimal performance and user experience.",
+    "title3": "- Cat Model Portfolio -",
+    "tech3": "React • TypeScript • JavaScript • CSS • i18n • React Helmet • Modal",
+    "des3": "A modern, fully responsive portfolio site featuring bilingual support (English/French), smooth scroll navigation, SEO-friendly metadata and advanced portfolio modal with swipe/keyboard support. Highlights both photography and frontend expertise."
   },
 
   "about": {

@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import comingSoon from '../assets/coming-soon.jpg';
 import catModel from '../assets/cat-model.jpg';
-
+import catModel2 from '../assets/cat-model-v2.jpg';
 
 const Portfolio = () => {
   const { t } = useTranslation();
@@ -30,6 +30,18 @@ const Portfolio = () => {
   <p style={{textAlign:"center"}}><span className="large margin-right"><b>{t("project.title2")}</b></span></p>
   <p style={{textAlign:"center"}}><span>{t("project.tech2")}</span></p>
   <p className="panel leftbar margin">{t("project.des2")}</p>
+  <br />
+  </p>
+
+  <br />
+  
+  <p className="card zoom">
+  <a href="https://yinhsunchang.github.io/cat-model-v2" target="_blank">
+  <img src={catModel2} alt="Preview" style={{width:'100%'}} />
+  </a>
+  <p style={{textAlign:"center"}}><span className="large margin-right"><b>{t("project.title3")}</b></span></p>
+  <p style={{textAlign:"center"}}><span>{t("project.tech3")}</span></p>
+  <p className="panel leftbar margin">{t("project.des3")}</p>
   <br />
   </p>
   </div>
