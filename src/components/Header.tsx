@@ -24,7 +24,7 @@ const Header = () => {
       />
 
       <button className="button light-grey padding-large margin-top">
-      <a href={`${import.meta.env.BASE_URL}${t("header.resume")}`} download>
+      <a href={`${import.meta.env.BASE_URL}${t("header.resume")}`} target="_blank" rel="noopener noreferrer">
         <i className="fa fa-download"></i> {t("header.download")}
       </a>
       </button>
