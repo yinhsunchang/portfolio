@@ -15,7 +15,7 @@ const Portfolio = () => {
   <a href="https://yinhsunchang.github.io/coming-soon" target="_blank">
   <img src={comingSoon} alt="Preview" style={{width:'100%'}} />
   </a>
-  <p style={{textAlign:"center"}}><span className="large margin-right"><b>{t("project.title1")}</b></span></p>
+  <p style={{textAlign:"center"}}><span className="large"><b>{t("project.title1")}</b></span></p>
   <p style={{textAlign:"center"}}><span>{t("project.tech1")}</span></p>
   <p className="panel leftbar margin">{t("project.des1")}</p>
   <br />
@@ -27,7 +27,7 @@ const Portfolio = () => {
   <a href="https://yinhsunchang.github.io/cat-model" target="_blank">
   <img src={catModel} alt="Preview" style={{width:'100%'}} />
   </a>
-  <p style={{textAlign:"center"}}><span className="large margin-right"><b>{t("project.title2")}</b></span></p>
+  <p style={{textAlign:"center"}}><span className="large"><b>{t("project.title2")}</b></span></p>
   <p style={{textAlign:"center"}}><span>{t("project.tech2")}</span></p>
   <p className="panel leftbar margin">{t("project.des2")}</p>
   <br />
@@ -39,7 +39,7 @@ const Portfolio = () => {
   <a href="https://yinhsunchang.github.io/cat-model-v2" target="_blank">
   <img src={catModel2} alt="Preview" style={{width:'100%'}} />
   </a>
-  <p style={{textAlign:"center"}}><span className="large margin-right"><b>{t("project.title3")}</b></span></p>
+  <p style={{textAlign:"center"}}><span className="large"><b>{t("project.title3")}</b></span></p>
   <p style={{textAlign:"center"}}><span>{t("project.tech3")}</span></p>
   <p className="panel leftbar margin">{t("project.des3")}</p>
   <br />
