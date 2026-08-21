@@ -1,7 +1,7 @@
 {
   "pageTitle": "Yin-Hsun Chang – Portfolio",
   "pageDescription": "Un site portfolio élégant construit avec React et TypeScript.",
-  
+
   "nav": {
     "home": "Accueil",
     "portfolio": "Portfolio",
@@ -19,14 +19,14 @@
 
   "project": {
     "title1": "- Page d'atterrissage « À venir » -",
-    "tech1": "React • TypeScript • JavaScript • CSS",
+    "tech1": "React • TS • JS • CSS",
     "des1": "Page d'atterrissage interactive et responsive, avec un compte à rebours en temps réel, une animation de machine à écrire, un formulaire d'inscription par email et une architecture front-end basée sur des composants. Idéale pour les lancements de produits ou les marques personnelles.",
     "title2": "- Portfolio de chat modèle -",
-    "tech2": "React • TypeScript • JavaScript • CSS • i18n",
+    "tech2": "React • TS • JS • CSS • i18n",
     "des2": "Un site portfolio élégant présentant des portraits de chats inspirés de mannequins, avec un navigation bilingue (anglais/français), métadonnées SEO-friendly, défilement fluide, zoom au survol des images, chargement différé des images et mise en page entièrement responsive pour une expérience utilisateur optimale.",
     "title3": "- Portfolio de chat modèle V.2 -",
-    "tech3": "React • TypeScript • JavaScript • CSS • i18n",
-    "des3": "Un site portfolio moderne et entièrement responsive avec support bilingue (anglais/français), métadonnées SEO-friendly, navigation fluide et modale avancée pour le portfolio avec support swipe/clavier. Met en avant à la fois la photographie et l'expertise frontend."
+    "tech3": "React • TS • JS • CSS • Node",
+    "des3": "Une application React élégante et multipage, conçue comme un site portfolio pour mon chat. Initialement développée sous forme d'application monopage (SPA), le projet a progressivement évolué pour devenir une application React plus vaste, incluant plusieurs pages, le routage côté client, des composants réutilisables, la gestion d'état, l'authentification, l'intégration backend, les tests ainsi que la CI/CD."
   },
 
   "about": {
@@ -36,7 +36,10 @@
     "skills": {
       "title": "Mes Compétences",
       "frontend": "- HTML / CSS / JavaScript / TypeScript / React",
-      "design": "- Photographie / Retouche photo / Design d'intérieur",
+      "backend": "- Node / RESTful API / Supabase",
+      "testing": "- Vitest / React Testing Library",
+      "tools": "- Git / GitHub / Visual Studio Code",
+      "design": "- Photographie / Retouche photo / Design",
       "language": "- Chinois / Anglais / Français"
     }
   },

@@ -19,14 +19,14 @@
 
   "project": {
     "title1": "- Coming Soon Landing Page -",
-    "tech1": "React • TypeScript • JavaScript • CSS",
+    "tech1": "React • TS • JS • CSS",
     "des1": "An interactive, responsive landing page with a live countdown timer, typewriter animation, email subscription form, and component-based front-end architecture. Ideal for product launches or personal brands.",
     "title2": "- Cat Model Portfolio -",
-    "tech2": "React • TypeScript • JavaScript • CSS • i18n",
+    "tech2": "React • TS • JS • CSS • i18n",
     "des2": "A stylish portfolio site showcasing model-inspired cat portraits, featuring bilingual navigation (English/French), SEO-friendly metadata, smooth scrolling, image hover zoom, lazy loading, and a fully responsive layout for optimal performance and user experience.",
     "title3": "- Cat Model Portfolio V.2 -",
-    "tech3": "React • TypeScript • JavaScript • CSS • i18n",
-    "des3": "A modern, fully responsive portfolio site featuring bilingual support (English/French), SEO-friendly metadata, smooth scroll navigation and advanced portfolio modal with swipe/keyboard support. Highlights both photography and frontend expertise."
+    "tech3": "React • TS • JS • CSS • Node",
+    "des3": "A stylish multi-page React application built as a portfolio website for my cat. Originally developed as a single-page application, the project gradually evolved into a larger React application with multiple pages, client-side routing, reusable components, state management, authentication, backend integration, testing, and CI/CD."
   },
 
   "about": {
@@ -36,7 +36,10 @@
     "skills": {
       "title": "My Skills",
       "frontend": "- HTML / CSS / JavaScript / TypeScript / React",
-      "design": "- Photography / Photo Editing / Interior Design",
+      "backend": "- Node / RESTful API / Supabase",
+      "testing": "- Vitest / React Testing Library",
+      "tools": "- Git / GitHub / Visual Studio Code",
+      "design": "- Photography / Photo Editing / Design",
       "language": "- Chinese / English / French"
     }
   },
