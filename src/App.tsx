@@ -1,12 +1,38 @@
-import Portfolio from './Portfolio.tsx'
+import "./App.css";
 
-function App() {
+import MyHelmet from "./components/Helmet.tsx";
+import Switcher from "./components/Switcher.tsx";
+import Sidebar from "./components/Sidebar.tsx";
+import Navbar from "./components/Navbar.tsx";
+import Header from "./components/Header.tsx";
+import About from "./components/About.tsx";
+import Portfolio from "./components/Portfolio.tsx";
+import Contact from "./components/Contact.tsx";
+import Footer from "./components/Footer.tsx";
+
+import { useSmoothScroll } from "./ts/useSmoothScroll.ts";
+
+function CatModel() {
+  useSmoothScroll();
 
   return (
     <>
-    <Portfolio />
+      <MyHelmet />
+      <Switcher />
+      <div>
+        <Sidebar />
+        <Navbar />
+        {/* Page Content */}
+        <div className="main padding-large" style={{ marginLeft: "40%" }}>
+          <Header />
+          <Portfolio />
+          <About />
+          <Contact />
+          <Footer />
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default CatModel;
