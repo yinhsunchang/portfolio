@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import comingSoon from "../assets/coming-soon.jpg";
 import catModel from "../assets/cat-model.jpg";
 import catModel2 from "../assets/cat-model-v2.jpg";
+import eshop from "../assets/e-shop.jpg";
 
 interface ProjectCardProps {
   image: string;
@@ -20,25 +21,25 @@ const ProjectCard = ({
 }: ProjectCardProps) => {
   return (
     <>
-      <div className="card zoom margin-bottom">
-        <a href={href} target="_blank" rel="noreferrer">
+      <a href={href} target="_blank" rel="noreferrer">
+        <div className="card zoom margin-bottom">
           <img src={image} alt="Preview" style={{ width: "100%" }} />
-        </a>
 
-        <p style={{ textAlign: "center" }}>
-          <span className="large">
-            <b>{title}</b>
-          </span>
-        </p>
+          <p style={{ textAlign: "center" }}>
+            <span className="large">
+              <b>{title}</b>
+            </span>
+          </p>
 
-        <p style={{ textAlign: "center" }}>
-          <span>{tech}</span>
-        </p>
+          <p style={{ textAlign: "center" }}>
+            <span>{tech}</span>
+          </p>
 
-        <p className="panel leftbar margin">{description}</p>
+          <p className="panel leftbar margin">{description}</p>
 
-        <br />
-      </div>
+          <br />
+        </div>
+      </a>
     </>
   );
 };
@@ -67,6 +68,13 @@ const Portfolio = () => {
       title: t("project.title3"),
       tech: t("project.tech3"),
       description: t("project.des3"),
+    },
+    {
+      image: eshop,
+      href: "https://github.com/yinhsunchang/e-shop",
+      title: t("project.title4"),
+      tech: t("project.tech4"),
+      description: t("project.des4"),
     },
   ];
 
