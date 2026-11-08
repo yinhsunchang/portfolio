@@ -25,8 +25,11 @@
     "tech2": "React • TS • JS • CSS • i18n",
     "des2": "Un site portfolio élégant présentant des portraits de chats inspirés de mannequins, avec un navigation bilingue (anglais/français), métadonnées SEO-friendly, défilement fluide, zoom au survol des images, chargement différé des images et mise en page entièrement responsive pour une expérience utilisateur optimale.",
     "title3": "- Portfolio de chat modèle V.2 -",
-    "tech3": "React • TS • JS • CSS • Node",
-    "des3": "Une application React élégante et multipage, conçue comme un site portfolio pour mon chat. Initialement développée sous forme d'application monopage (SPA), le projet a progressivement évolué pour devenir une application React plus vaste, incluant plusieurs pages, le routage côté client, des composants réutilisables, la gestion d'état, l'authentification, l'intégration backend, les tests ainsi que la CI/CD."
+    "tech3": "React • Node • Supabase",
+    "des3": "Une application React élégante et multipage, conçue comme un site portfolio pour mon chat. Initialement développée sous forme d'application monopage (SPA), le projet a progressivement évolué pour devenir une application React plus vaste, incluant plusieurs pages, le routage côté client, des composants réutilisables, la gestion d'état, l'authentification, l'intégration backend, les tests ainsi que la CI/CD.",
+    "title4": "- Mini E-commerce -",
+    "tech4": "React • Supabase • Stripe",
+    "des4": "Une application e-commerce Full-Stack moderne et bilingue, conçue selon une architecture « serverless » et s'appuyant sur React, Supabase et Stripe."
   },
 
   "about": {

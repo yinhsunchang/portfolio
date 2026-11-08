@@ -25,8 +25,11 @@
     "tech2": "React • TS • JS • CSS • i18n",
     "des2": "A stylish portfolio site showcasing model-inspired cat portraits, featuring bilingual navigation (English/French), SEO-friendly metadata, smooth scrolling, image hover zoom, lazy loading, and a fully responsive layout for optimal performance and user experience.",
     "title3": "- Cat Model Portfolio V.2 -",
-    "tech3": "React • TS • JS • CSS • Node",
-    "des3": "A stylish multi-page React application built as a portfolio website for my cat. Originally developed as a single-page application, the project gradually evolved into a larger React application with multiple pages, client-side routing, reusable components, state management, authentication, backend integration, testing, and CI/CD."
+    "tech3": "React • Node • Supabase",
+    "des3": "A stylish multi-page React application built as a portfolio website for my cat. Originally developed as a single-page application, the project gradually evolved into a larger React application with multiple pages, client-side routing, reusable components, state management, authentication, backend integration, testing, and CI/CD.",
+    "title4": "- Mini E-commerce -",
+    "tech4": "React • Supabase • Stripe",
+    "des4": "A modern, bilingual Full-Stack e-commerce application built with a Serverless architecture leveraging React, Supabase, and Stripe."
   },
 
   "about": {
